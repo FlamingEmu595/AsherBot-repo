@@ -1,5 +1,4 @@
 import discord
-import pickle
 from discord.ext import commands
 
 
@@ -11,7 +10,7 @@ class Basic(commands.Cog):
     async def ping(self, ctx):
         """ Ping """
         await ctx.send(f"Pong! **{round(self.bot.latency * 1000, 2)}ms**")
-                       
+
     @commands.command()
     async def embed_example(self, ctx, *, content=None):  # none by default makes it optional
         embed = discord.Embed(

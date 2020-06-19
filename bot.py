@@ -1,6 +1,6 @@
 from discord.ext import commands
 import json
-coglist = ["basic", "jishaku"]  # jishaku is a very helpful tool for d.py bots
+coglist = ["basic", "jishaku", "ad2"]  # jishaku is a very helpful tool for d.py bots
 settings = open("settings.json").read()  # read settings.json in
 settings = json.loads(settings)  # make it a dictionary
 
