@@ -1,0 +1,4 @@
+{
+    "token": "This is the token the bot uses to log in to Discord",
+    "prefix": "Messages have to start with this to register as a command"
+}
